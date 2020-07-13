@@ -1,0 +1,100 @@
+<html>
+<meta charset="utf-8">
+
+  <body>
+
+    <div id="DivLogo">
+<img src="images/logo.jpg" height="100">
+    </div>
+
+
+    <div id="DivHello" >
+
+     <p> Hallo!  Schön, dass du da bist! 😊</p> 
+
+      Diese Übung hilft dir, hohe Töne von tiefen
+      Tönen besser unterscheiden zu können. Ich habe dazu auch ein <a href="https://www.youtube.com/watch?v=RGyWEScY4GY" >Tutorial Video</a>
+      gemacht, das du dir auf <a href="https://www.youtube.com/user/blackbirdmusix"> meinem Kanal </a> gern anschauen kannst. 
+      <p> Ich wünsche dir viel Erfolg beim Üben!</p>
+      <p> Hans </p>
+
+
+      <button id="any_button" type="button" onclick= "main()"> Start 🎹</button> 
+
+    </div>
+
+    <div id=DivMain>
+
+      <link rel="stylesheet" type="text/css" href="Main.css"></link>
+      <link rel="stylesheet" type="text/css" href="loadingbar/loading-bar.css"/>
+      <script type="text/javascript" src="loadingbar/loading-bar.js"></script>
+
+      <p><p id="Level"> Level 1</p>
+
+      <div id="myItem1" data-preset="circle"></div></p>
+
+      <!--    I am using loadingBar here. Visit https://loading.io/progress/ -->
+
+      <script>
+        var bar1 = new ldBar("#myItem1");
+        var bar2 = document.getElementById('myItem1').ldBar;
+        bar1.set(0);
+      </script>
+
+      <style type="text/css">
+        .ldBar path.mainline {
+          stroke-width: 10;
+          stroke: #dd4a4a;
+          stroke-linecap: round;
+        }
+        .ldBar path.baseline {
+          stroke-width: 14;
+          stroke: #dd4a4a;
+          stroke-linecap: round;
+          filter:url(#custom-shadow);
+        }
+
+          .ldBar-label {
+          padding-top: 10;
+        
+        }
+
+
+      </style>
+
+      <!-- End of LoadingBar -->
+
+      <div id="DivCanvas">
+
+        <canvas id="canvas" width ="500" height="200" > 
+
+          <img id="klaviatur_image" 
+          src="./images/klaviatur.jpg" width = "500" height = "200">
+
+        </canvas>
+
+      </div>
+
+      <p id="Feedback">  &nbsp; </p>
+      
+      <p id="feedbackbar"> Aufgabe: Ist die zweite Note tiefer, höher oder auf gleicher Höhe?</p>
+
+        <button id="any_button" type="button" onclick= "setUserChoiceToHigher()">  höher ☝️  </button>
+        <button id="any_button"type="button" onclick= "setUserChoiceToLower()">  tiefer 👇</button>
+        <button id="any_button"type="button" onclick= "setUserChoiceToEqual()">  gleichhoch 👐 </button> 
+        <button id="any_button"type="button" onclick= "playSoundAgain()">Wiederholen 🔁</button>
+          <p>&nbsp;</p>
+
+
+      <script language="javascript" type="text/javascript" src="Main.js"> </script>
+      
+    </div>
+
+
+
+  <footer id="footer"> 
+
+    <a id=impressum href="http://christoph-schmalfuss.de/#contact" >     Impressum</a> </footer>
+
+  </body>
+</html>

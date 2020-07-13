@@ -1,0 +1,208 @@
+@media only screen and (max-width: 1200px) {
+
+	#myitem1 { 
+	  
+	  margin: auto;
+	  padding-bottom: 5%;
+	  padding-top: 5%;
+
+
+	}
+
+	#DivLogo {
+		float:top;
+
+	}
+
+	#level {padding-top: 40;
+	        font-size:30pt;
+	  }
+
+	#highscore {
+		padding-bottom: 20;
+	}
+
+	#start{
+		width:95%;
+		border-color: black;
+		font-size: 30pt;
+	  	background-color: white; 
+	  	height: 10%;
+	}
+
+	#any_button{
+		width:90%;
+		border-color: grey;
+	    font-size: 30pt;
+	  	background-color: white; 
+	  	height: 10%;
+
+	}
+
+	body {
+		background-color: #dd4a4a;
+		padding-right: 5%;
+		padding-left: 5%;
+		padding-bottom: 5%;
+		font-family: Lucida Console;
+		font-size:30pt;
+		text-align: center;
+		border-color: black;
+
+	}
+
+	#DivMain {
+	  display: none;
+	  background-color: #FFFFFF;
+	  margin: auto;
+
+	}
+
+	#DivCanvas{
+		overflow:hidden;
+
+	}
+
+	#DivHello {
+		line-height: 1.5;
+		padding: 10%;
+		background-color: #FFFFFF;
+		text-align: left;
+	}
+
+	a {
+		font-weight: bold;
+		text-decoration: none;
+		color: black;
+	}
+
+	#Level {
+		background-color: black;
+		color:white;
+		padding-bottom: 20px;
+		margin:auto;
+	}
+
+	#klaviatur_image {
+		overflow:hidden;
+	}
+
+	#impressum {
+		color: #FFFFFF;
+	}
+
+	#Welcome {  
+		background-color: #FFFFFF;
+	  	margin: auto;
+	}
+
+	footer {
+		color: white;
+		display:none;
+
+	}
+
+	#feedbackbar {height: 60px;}
+
+	}
+
+@media only screen and (min-width: 1200px) {
+
+	#myitem1 { 
+	  
+	  margin: auto;
+	  padding-bottom: 5%;
+	  padding-top: 5%;
+
+
+	}
+
+	#DivLogo {
+		float:top;
+
+	}
+
+	#level {padding-top: 40;
+	        font-size:40;
+	  }
+
+	#highscore {
+		padding-bottom: 20;
+	}
+
+	#start{
+	  font-size: 20;
+	}
+
+	#any_button{
+	  font-size: 20; 
+	  background-color: #FFFFFF;
+
+	}
+
+	#feedbackbar {height: 40px;}
+
+	body {
+		background-color: #dd4a4a;
+		padding-right: 15%;
+		padding-left: 15%;
+		font-family: Lucida Console;
+		font-size:20pt;
+		text-align: center;
+		border-color: black;
+
+	}
+
+	#DivMain {
+	  display: none;
+	  background-color: #FFFFFF;
+	  margin: auto;
+
+	}
+
+	#DivCanvas{
+		overflow:hidden;
+
+	}
+
+	#DivHello {
+		line-height: 1.5;
+		padding: 10%;
+		background-color: #FFFFFF;
+		text-align: left;
+	}
+
+	a {
+		font-weight: bold;
+		text-decoration: none;
+		color: black;
+	}
+
+	#Level {
+		background-color: black;
+		color:white;
+		padding-bottom: 20px;
+		margin:auto;
+	}
+
+	#klaviatur_image {
+		overflow:hidden;
+	}
+
+	#impressum {
+		color: #FFFFFF;
+	}
+
+	#Welcome {  
+		background-color: #FFFFFF;
+	  	margin: auto;
+	}
+
+	footer {
+		color: white;
+		display:none;
+
+	}
+
+
+
