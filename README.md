@@ -1,4 +1,4 @@
-# TrainYourEar 0.8
+# TrainYourEar 0.9
 
 TrainYourEar is a web app that - unsurprisingly - helps you to train your ear. I wrote this as my very first commisioned work for a german YouTube piano teacher named "Hans Liljekvist". 
 
