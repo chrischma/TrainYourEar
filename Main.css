@@ -9,6 +9,8 @@
 
 	}
 
+
+
 	#DivLogo {
 		float:top;
 
@@ -23,14 +25,41 @@
 	}
 
 	#start{
-		width:95%;
-		border-color: black;
-		font-size: 30pt;
+		width:90%;
+		border-color: grey;
+	    font-size: 30pt;
 	  	background-color: white; 
 	  	height: 10%;
 	}
 
-	#any_button{
+	#b_higher{
+		width:90%;
+		border-color: grey;
+	    font-size: 30pt;
+	  	background-color: white; 
+	  	height: 10%;
+
+	}
+
+	#b_lower{
+		width:90%;
+		border-color: grey;
+	    font-size: 30pt;
+	  	background-color: white; 
+	  	height: 10%;
+
+	}
+
+	#b_equal{
+		width:90%;
+		border-color: grey;
+	    font-size: 30pt;
+	  	background-color: white; 
+	  	height: 10%;
+
+	}
+
+	#b_again{
 		width:90%;
 		border-color: grey;
 	    font-size: 30pt;
@@ -134,7 +163,25 @@
 	  font-size: 20;
 	}
 
-	#any_button{
+	#b_higher{
+	  font-size: 20; 
+	  background-color: #FFFFFF;
+
+	}
+
+		#b_lower{
+	  font-size: 20; 
+	  background-color: #FFFFFF;
+
+	}
+
+		#b_equal{
+	  font-size: 20; 
+	  background-color: #FFFFFF;
+
+	}
+
+		#b_again{
 	  font-size: 20; 
 	  background-color: #FFFFFF;
 
